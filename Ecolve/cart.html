@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+      ,
+      initial-scale="1.0"
+      ,
+      maximum-scale="1,0"
+      ,
+      user-scalable="no"
+      ,
+      minimal-ui
+    />
+    <link rel="stylesheet" href="cart_styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="Resources/logoecolve2_logo.png" rel="icon" type="image/png"/>
+    <title>Ecolve Store</title>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html" class="ecolve_link"><h1>Ecolve Store</h1></a>
+      <ul class="nav_menu">
+        <a href="index.html" class="home_link"><li>Home</li></a>
+        <a href="blog.html" class="blog_link"><li>Blog</li></a>
+        <a href="produk.html" class="shop_link"><li>Shop</li></a>
+        <a href="cart.html" class="cart_link"><li>Cart</li></a>
+        <a href="#footer-section" class="contactus_link"><li>Contact Us</li></a>
+        <li>
+          <a href="login.html" class="login_link"><button class="btn_1">LOGIN | SIGNUP</button></a>
+        </li>
+      </ul>
+    </div>
+    <h2 class="order_title">My Order</h2>
+      <nav class="tabs" id="tabs">
+    <button class="tab active" data-filter="all">Semua</button>
+    <button class="tab" data-filter="belum">Belum Bayar</button>
+    <button class="tab" data-filter="dikemas">Dikemas</button>
+    <button class="tab" data-filter="dikirim">Dikirim</button>
+    <button class="tab" data-filter="selesai">Selesai</button>
+  </nav>
+  <main class="orders-container" id="orders">
+    <article class="order-card" data-status="dikemas">
+      <div class="order-header">
+        <span class="shop-name">Ecolve Official Store</span>
+        <span class="order-status status-dikemas">Dikemas</span>
+      </div>
+      <div class="order-content">
+       <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2025/1/20/f98a247e-4412-4e70-9035-f1bda46110cf.jpg" alt="product1" class="order-img"/>
+        <div class="order-info">
+          <h2>Sepatu vans preloved</h2>
+          <p>Jumlah: 1</p>
+          <p class="price">Rp 158,000</p>
+        </div>
+      </div>
+      <div class="order-footer">
+        <button class="btn detail">Lihat Detail</button>
+        <a href="https://wa.me/+6287711089942">
+         <button class="btn kirim">Hubungi Penjual </button>
+         </a>
+        </button>
+      </div>
+    </article>
+    <article class="order-card" data-status="belum">
+      <div class="order-header">
+        <span class="shop-name">Ecolve Store</span>
+        <span class="order-status status-belum">Belum Bayar</span>
+      </div>
+      <div class="order-content">
+        <img src="https://penerbitlitnus.co.id/wp-content/uploads/2023/12/1168.jpg" alt="product2" class="order-img"/>
+        <div class="order-info">
+          <h2>Buku Pengantar Ekonomi Preloved</h2>
+          <p>Jumlah: 1</p>
+          <p class="price">Rp 53.000</p>
+        </div>
+      </div>
+      <div class="order-footer">
+        <button class="btn bayar">Bayar Sekarang</button>
+      </div>
+    </article>
+    <article class="order-card" data-status="selesai">
+      <div class="order-header">
+        <span class="shop-name">Ecolve Official Store</span>
+        <span class="order-status status-selesai">Selesai</span>
+      </div>
+      <div class="order-content">
+       <img src="https://img.lazcdn.com/g/ff/kf/S1f074d0204474b2aaec11e394ebf8128b.jpg_720x720q80.jpg" alt="product3" class="order-img"/>
+        <div class="order-info">
+          <h2>Charger VIVO ori bekas</h2>
+          <p>Jumlah: 1</p>
+          <p class="price">Rp 30.000</p>
+        </div>
+      </div>
+      <div class="order-footer">
+        <button class="btn detail">Lihat Detail</button>
+        <button class="btn ulasan">Tulis Ulasan</button>
+      </div>
+    </article>
+  </main>
+  </body>
+  <footer>
+    <div class="footer_page">
+      <div class="footer_section">
+    <h3>Ecolve</h3>
+    <ul>
+      <li>About Us</li>
+      <li>Blog</li>
+    </ul>
+    </div>
+    <div class="footer_section">
+    <h3>Discover</h3>
+    <ul>
+      <li>How it works</li>
+      <li>Start Selling</li>
+    </ul>
+    </div>
+    <div class="footer_section">
+    <h3>Customer Care</h3>
+    <ul>
+      <li>Contact Us</li>
+      <li>FAQ</li>
+      <li>Privacy Policy</li>
+      <li>Terms & Conditions</li>
+    </ul>
+    </div>
+    <div class="footer_section4">
+    <h3>Follow Us</h3>
+    <ul>
+    <li><a><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a><i class="fa-brands fa-tiktok"></i></a></li>
+    <li><a><i class="fa-brands fa-square-x-twitter"></i></a></li>
+    <li><a><i class="fa-brands fa-square-facebook"></i></a></li>
+    </ul>
+    </div>
+    <div class="footer_section">
+      <h3 id="footer-section">Contact Us</h3>
+      <ul>
+        <a href="https://wa.me/+62895412369104" class="contact_wa"><li>WhatsApp</li></a>
+        <a href="mailto:fathirzalliant7@gmail.com" class="contact_email"><li>Email</li></a>
+      </ul>
+    </div>
+    </div>
+    <p>© 2025 Ecolve. All rights reserved.</p>
+  </footer>
+</html>
